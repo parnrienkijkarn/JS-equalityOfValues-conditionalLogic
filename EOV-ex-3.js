@@ -13,6 +13,19 @@ function isPlainObject(obj) {
 // }
 
 
+
+// อันนี้ของนัทกับกรที่ล้ำชิบหาย
+// let isPlainObject = (object) => {
+//   let objectType = typeof object;
+//   let objectIsArray = Array.isArray(object);
+//   if (objectType === "object" && objectIsArray == false && object !== null) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+
+
 // Example case
 let result1 = isPlainObject({ name: "John" });
 let result2 = isPlainObject(null);
