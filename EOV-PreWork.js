@@ -1,15 +1,15 @@
-Object.is("Twenty", 20); // False
-Object.is({ name: "John" }, { name: "John" }); // True
-Object.is(true, 1); // False
-NaN == NaN; // FALSE
-10 == "10"; // True
-true == 1;  // TRUE
-0 === -0;  // TRUE
-null === null; // TRUE
-true === 1; // False
-true == "true"; // FALSE
-null == undefined; // True
-0 != ""; // FALSE
-[1, 2] == "1,2"; // True
+console.log(Object.is("Twenty", 20)); // false
+console.log(Object.is({ name: "John" }, { name: "John" })); // FALSE
+console.log(Object.is(true, 1)); // false
+console.log(NaN == NaN); // FALSE
+console.log(10 == "10"); // true
+console.log(true == 1);  // TRUE
+console.log(0 === -0);  // TRUE
+console.log(null === null); // TRUE
+console.log(true === 1); // false
+console.log(true == "true"); // FALSE
+console.log(null == undefined); // true
+console.log(0 != ""); // FALSE
+console.log([1, 2] == "1,2"); // true
 
-// got questions for number 4, 8, 10, 12
+// got questions for number 2, 4, 8, 10, 12
