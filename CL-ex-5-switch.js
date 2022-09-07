@@ -1,22 +1,19 @@
 function calculateStudentGrade(score) {
-  switch (true) { // คำถามคือทำไมต้องเป็น switch (true) https://www.scaler.com/topics/c/difference-between-if-else-and-switch/
+  switch (true) {
     case score >= 0 && score <= 59:
-      return score = "F";
-      break;
-    case score >= 60 && score <= 69:
-      return score = "D";
-      break;
+     return (score = "F");
+    case score >= 59 && score <= 69:
+      return (score = "D");
     case score >= 70 && score <= 79:
-      return score = "C";
-      break;
+      return (score = "C");
     case score >= 80 && score <= 89:
-      return score = "B";
-      break;
+      return (score = "B");
     case score >= 90 && score <= 100:
-      return score = "A";
-      break;
+      return (score = "A");
+    default:
+      score = "A";
   }
-};
+}
 
 // Example case
 let johnGrade = calculateStudentGrade(30);
